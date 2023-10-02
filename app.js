@@ -1,8 +1,14 @@
   
+  //function to enter the user gender
+  function genderFunction(){
+    var gender=prompt("Please Enter Your Gender","Gender");
+    return gender;
+  }
   var  Name = prompt("Please Enter Your Name" ,"");
   
- if ( Name != null){
-   var gender=prompt("Please Enter Your Gender","Gender");
+  if ( Name != null){
+    //call function
+    var gender=genderFunction();
 //EX2 LOOPS 
    while (gender.toLocaleLowerCase() !== "female" && gender.toLocaleLowerCase() !== "male"  ){
     gender=prompt("ERROR : please enter your gender again ","Gender");
