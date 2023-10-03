@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
-    <script src="app.js"></script>
+    
     <title>Caffe</title>
 </head>
 <body>
@@ -34,6 +34,31 @@
    <h1 > Welcome To caffeZ</h1>
 </div>
 
+
+
+<div style="margin-block: 10px;" class="lablestyle">Please Fill the feilds : </div>
+<form action="" style="margin-block: 10px;">
+  <label for="name" class="lablestyle">Name</label>
+  <input type="text" id="name">
+  <label for="Gender"class="lablestyle" >Gender</label>
+  <input type="text" id="Gender">
+  <label for="Drink" class="lablestyle">Drink</label>
+  <input type="text" id="Drink">
+  <div>
+  <label for="drinktype" class="lablestyle">Drink Type</label>
+  <input type="checkbox" id="t1" name="type1" value="Cold drink">
+  <label >cold drink</label>
+  <input type="checkbox" id="t2" name="type1"  value="Hot drink">
+  <label >hot drink</label>
+</div>
+
+  <button type="submit" id="submit">Submit</button>
+</form>
+
+<div id="info" style="background-color: rgb(232, 217, 168);"></div>
+
+
+
 <div class="row m-5">
     
         <div class="col-lg-4 col-md-6">
@@ -56,7 +81,7 @@
       </div>
     </div>
 </div>
-
+<script src="app.js"></script>
 </body>
 
 
